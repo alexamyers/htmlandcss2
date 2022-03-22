@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(103, 101, 101);
+    width: auto;
+    height: 200px;
+}
+
+#left-side {
+    background-color: lightgray;
+    height: 1000px;
+    width: 100px;
+    z-index: 2;
+}
+
+#right-side {
+    background-color: lightgray;
+    height: 1000px;
+    width: 100px;
+    float: right;
+    z-index: 2;
+}
+
+#bottom {
+    background-color: black;
+    height: 100px;
+    width: calc(100vw - 200px);
+    margin-left: 100px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1
+}
